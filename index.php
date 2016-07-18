@@ -14,11 +14,11 @@
 /*
    Este código serve para exibir mensagem de erro de usuário e senha, no caso da SESSION é diferente de zero(0).
 */
-      $erro= "";
+      $erro="";
       session_start();
       if((!isset ($_SESSION['erro']) == 0))
       {
-                 $erro = "<span class='red'>*Usuario e/ou Senha Incorreto(s)</span>";
+                 $erro ="<span class='red'>*Usuario e/ou Senha Incorreto(s)</span>";
       }
     ?>
 </head>
@@ -120,25 +120,25 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label" for="input-data-nascimento">Dat. Nasc:</label>
                                 <div class="col-sm-10">
-                                    <input type="date" class="form-control" id="input-data-nascimento" placeholder="01/01/1990" required pattern=(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4} " title="Exemplo: 01/01/1999 ">
+                                    <input type="date" class="form-control" id="input-data-nascimento" placeholder="01/01/1990" required pattern=(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}" title="Exemplo: 01/01/1999">
                                 </div>
                             </div>
-                            <div class="form-group ">
-                                <label class="col-sm-2 control-label " for="input-email ">E-Mail:</label>
-                                <div class="col-sm-10 ">
-                                    <input type="email " class="form-control " id="input-email " placeholder="usuario@empresa.com.br " required>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="input-email">E-Mail:</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="input-email" placeholder="usuario@empresa.com.br" required>
                                 </div>
                             </div>
-                            <div class="form-group ">
-                                <label class="col-sm-2 control-label " for="input-senha ">Senha:</label>
-                                <div class="col-sm-10 ">
-                                    <input type="password " class="form-control " id="input-senha " placeholder="****** " required pattern="(?=.*\d)(?=.*[a-z]).{6,6} " maxlength="6 " data-toggle="tooltip " title="A senha deve conter seis caracteres misturando letras e numeros ">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="input-senha">Senha:</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="input-senha" placeholder="******" required pattern="(?=.*\d)(?=.*[a-z]).{6,6}" maxlength="6" data-toggle="tooltip" title="A senha deve conter seis caracteres misturando letras e numeros">
                                 </div>
                             </div>
                         </div>
-                        <div class="modal-footer ">
+                        <div class="modal-footer">
                             <button type="button" class="btn btn-default text-right" data-dismiss="modal">Fechar</button>
-                            <button type="submit " class="btn btn-primary text-left" id="button-cadastrar ">Cadastrar</button>
+                            <button type="submit" class="btn btn-primary text-left" id="button-cadastrar">Cadastrar</button>
                         </div>
                     </form>
                 </div>
@@ -150,16 +150,16 @@
 </body>
 <script>
 $(document).ready(function() {
-    $('[data-toggle="tooltip "]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
 
-    $('#form-cadastro').find('[id="input-data-nascimento "]').mask('99/99/9999');
+    $('#form-cadastro').find('[id="input-data-nascimento"]').mask('99/99/9999');
 
-    $('#form-cadastro').find('[id="input-cpf "]').mask("000.000.000-00");
+    $('#form-cadastro').find('[id="input-cpf"]').mask("000.000.000-00");
 
 });
 </script>
-<script type="text/javascript " src="js/bootstrap.js "></script>
-<script src="http://oss.maxcdn.com/jquery.mask/1.11.4/jquery.mask.min.js "></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script src="http://oss.maxcdn.com/jquery.mask/1.11.4/jquery.mask.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 </body>
 
