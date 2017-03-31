@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="robots" content="noindex,nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
@@ -12,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <?php
 /*
-   Este código serve para exibir mensagem de erro de usuário e senha, no caso da SESSION é diferente de zero(0).
+   Este cÃ³digo serve para exibir mensagem de erro de usuÃ¡rio e senha, no caso da SESSION Ã© diferente de zero(0).
 */
       $erro="";
       session_start();
@@ -57,7 +58,7 @@
             </div>
         </div>
         <!--/panel de login-->
-        <!--======================Modal de recuperação de senha==========================================-->
+        <!--======================Modal de recuperaÃ§Ã£o de senha==========================================-->
         <div class="modal fade" id="modal-recuperar-senha">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -94,7 +95,7 @@
                 </div>
             </div>
         </div>
-        <!--/modal recuperação de senha-->
+        <!--/modal recuperaÃ§Ã£o de senha-->
         <!--======================Modal de cadastro==========================================-->
         <div class="modal fade" id="modal-id">
             <div class="modal-dialog">
