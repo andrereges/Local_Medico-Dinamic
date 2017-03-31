@@ -3,7 +3,14 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex,nofollow">
+    <meta name="format-detection" content="telephone=no" />
+        <META NAME="DESCRIPTION" CONTENT="Veja a quantidade de médicos presentes e serviços funcionando nos AMAs de São Paulo">
+        <META NAME="ABSTRACT" CONTENT="Quantidade de médicos e estado dos serviços ambulatoriais">
+        <META NAME="KEYWORDS" CONTENT="Local Médico">
+        <META NAME="ROBOT" CONTENT="All">
+        <META NAME="RATING" CONTENT="general">
+        <META NAME="DISTRIBUTION" CONTENT="global">
+        <META NAME="LANGUAGE" CONTENT="PT">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
